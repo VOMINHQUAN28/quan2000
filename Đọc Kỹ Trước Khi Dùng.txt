@@ -1,0 +1,70 @@
+yêu cầu đọc kỹ:
+
+1. luôn luôn mở slide cho dù là chạy demo hay là không cần slide nữa vì sau cùng vẫn là slide kết buổi thuyết trình 
+
+2. kịch bản có 2 loại được đặt tên và phân loại rõ ràng đọc nhầm nữa thì nghỉ mẹ đi
+
+	2.1 từng kịch bản được chia theo từng cảnh trong slide nên có gắng nhớ chứ đừng có dm nói qua Logistic rồi mà cái
+	cái slide còn năm ngay RandomForest
+
+	2.2 Phân loại slide thành 2 bản nhằm mục đích giảm độ gây chấn cho người thuyết trình khi nên dm đừng có mà than
+	thằng này viết code demo, viết kịch bản kiêm luôn cả 80% slide còn éo lên tiếng
+
+3. trong demo cũng có 1 bản kịch bản riêng cho phần demo + thêm 2 bài code
+
+	3.1 Hai bài code cũng có tên rõ ràng hẵng hoi nên liệu mà chạy và nói cho đúng chứa chạy Random mà nói Logistic
+	thì 0 điểm đừng hỏi tại sao
+
+	3.2 Nên chạy từ Mô hình thấp lên cao vì trong kịch bản ghi từ bản ghi như vậy đừng tạo sự khác biệt mà đi ngược lại
+ 	ông thầy hỏi lại ngọng
+
+	3.3 trong kịch bản dành cho demo đọc đến đâu thì chuyển sang đến chổ cần được yêu cầu(trong kịch bản có viết rõ )
+	trường hợp nào mà đang demo thấy đoạn code lạ quá hoặc là quên kịch bản hoặc là chưa học tới thì lướt lẹ chứ không
+	chúng nó hỏi mất công tao lại phải đứng lên giải thích đâm ra ngại
+	
+	3.4 trong demo có 2 cách cơ bản để chạy code:
+		
+		3.4.1 dùng tổ hợp phím Ctrl + Enter để chạy code để con trỏ ở dòng nào thì code ở dong đó sẽ được thực thi
+		dòng nào lỗi nó sẽ bỏ qua dòng nào xong dòng code đó con trỏ chuột tự động di chuyển xuống dòng tiếp theo 
+		sau đó cứ dùng Ctrl + Enter là dòng tiếp theo sẽ được thực thi lưu nhớ nhìn ô console bên góc dưới bên trái
+		để coi code và giải thích và chức năng plot ở góc dưới bên phải để phát họa biểu đồ của mô hình và cũng sẽ
+		giải thích
+		
+		3.4.2 dùng tổ hợp phím Ctrl + A sau đó dùng tổ hợp phím Ctrl + Enter để chạy toàn bộ code mà không cần chạy
+		từng dòng code không khuyến khích sử dụng cách này vì nó sẽ là loạn não người xem lẫn người thuyết trình, 
+		chạy bỏ qua các mô hình cần giải thích cách này là cách dùng liều chỉ khuyến khích khi đéo nhớ cc gì hết
+		hoặc muốn cho mọi người coi kết quả cuối mà không cần giải thích -> lười
+		
+		3.4.3 trong khi chạy code sẽ có những file pdf được sinh ra trong thư mục đó là những file biểu đồ tao dùng
+		thư viện "gglot" lưu lại phòng khi tìm code chạy lại mất thời gian nên nếu lỡ có trôi có thì cứ vào thư 
+		mục chứa file code tìm thì sẽ thấy các biểu đồ được lưu dưới dạng chrome
+	
+4. Sau khi thuyết trình chỉ trào hỏi rồi chạy nhanh về tránh trường hợp ngu ngu đứng lại đó rồi bị hỏi sấp mặt loz rồi bắt
+tao đứng lên trả lời câu hỏi -> ngại
+
+
+
+5 một số chương trình cần cài đặt trong máy tính người thuyết trình
+	
+	5.1 Rcran ngôn ngữ lập trình R : https://cran.r-project.org/bin/windows/
+	
+	5.2 Rstudio Phần mềm Chạy File R: https://rstudio.com/products/rstudio/download/#download
+
+	5.3 sau khi tải xong 2 phần mềm này cần cài đặt các thư viện:
+		
+		5.3.1 "randomForest"
+
+		5.3.2 "tree"
+
+		5.3.3 "ggplot2"
+
+		5.3.4 "GGally"
+
+		5.3.5 "dplyr"
+
+		5.3.6 "datasets"
+	
+	5.4 yêu cầu tên thư viên viết sao copy ra y chang vậy tránh chơi trội ngồi từng chữ rồi sai sau đó kêu tao đâm ra
+	phiền
+
+Big NOTE : Không Biết thứ 2 Tao có đi học hay không sắp tới chắc tao nghỉ hơi dài
